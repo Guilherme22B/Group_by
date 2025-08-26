@@ -680,7 +680,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5ejegRtsv7lH3IQ7yID1-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Obs:&lt;/h1&gt;&lt;p&gt;Verificar cardinalidade e tipagem do atributo &quot;cidade_coordenadas_geograficas&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-400" width="240" height="120" as="geometry" />
+          <mxGeometry x="150" y="-390" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
