@@ -55,3 +55,9 @@ O modelo físico representa a estrutura final do banco de dados, com todas as ta
 <div align="center"> <img src="https://raw.githubusercontent.com/Guilherme22B/Group_by/refs/heads/main/Modelo%20F%C3%ADsico/Modelo%20F%C3%ADsico.jpg" alt="Modelo Físico do Banco de Dados" width="800"/> </div>
 
 
+## 📦 Visão Geral do Dataset
+Base de dados com informações do setor da construção civil no Brasil, estruturada para análises em ambiente relacional.
+
+📘 Para explorar todos os campos disponíveis, consulte o [dicionário de dados completo.](https://www.notion.so/Dicion-rio-de-Dados-260ffdc5925380e98907ced79636a4c2?source=copy_link)
+
+
