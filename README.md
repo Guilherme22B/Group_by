@@ -1,37 +1,57 @@
-# Group_by
 
-Análise do Setor de Construção Civil no Brasil - PAIC
+
+
+# 📈 Análise do Setor de Construção Civil no Brasil - PAIC
  
-Objetivo: Armazenar e analisar dados do PAIC relacionados ao setor imobiliário brasileiro, com foco na evolução do valor dos imóveis e na avaliação da viabilidade de investimentos no setor. 
+## 🎯 Objetivo do Projeto
+
+Este projeto tem como propósito desenvolver uma solução analítica robusta para o setor imobiliário brasileiro, utilizando dados da **Pesquisa Anual da Indústria da Construção (PAIC)**. A iniciativa visa criar um **banco de dados relacional em SQL Server**, capaz de armazenar, organizar e analisar informações relevantes para investidores, gestores públicos e profissionais do mercado.
+
+## 🧱 Principais Funcionalidades
+
+- 📈 **Monitoramento da evolução dos valores de imóveis** ao longo do tempo.
+- 🏙️ **Análise de valorização ou desvalorização de imóveis** com base em cidade, região e perfil demográfico.
+- 💰 **Avaliação da viabilidade de investimentos** no setor da construção civil.
+- 🏘️ **Apoio à tomada de decisão em aluguel, compra e venda de imóveis**.
+- 📊 **Integração de dados econômicos e territoriais** para gerar insights estratégicos.
+
+## ❓ Perguntas que o Projeto Busca Responder
+
+Este projeto foi desenvolvido com o objetivo de transformar dados do PAIC em insights estratégicos para o setor imobiliário brasileiro. Abaixo estão as principais perguntas que orientam nossas análises:
+
+- 🏙️ **Quais são as melhores cidades para se realizar investimentos imobiliários no Brasil?**
+- 📉 **Como os valores imobiliários variaram no país ao longo dos anos?**
+- 💸 **Quanto é necessário investir para adquirir e manter um imóvel nas principais cidades brasileiras?**
+- 📊 **Qual é a margem de lucro na compra de imóveis, comparando os dias atuais com anos anteriores?**
+- 📆 **Qual é a melhor época do ano para adquirir um imóvel no Brasil?**
+- 🏠 **Qual o custo dos aluguéis nas principais cidades do Brasil?**
+- ⏳ **Qual o tempo médio de retorno do investimento imobiliário?**
+- 🏦 **Qual a média de juros de financiamento de imóveis?**
+- 📈 **Como indicadores econômicos impactam a valorização dos imóveis?**
+- 🛣️ **Qual a correlação entre infraestrutura urbana e preços de imóveis?**
+- 👥 **Como a demografia local afeta a demanda por imóveis?**
  
-Perguntas que desejamos responder com o projeto: 
+### 🗂️ Gerenciamento de Tarefas
 
-- Quais são as melhores cidades para se realizar investimentos imobiliários no Brasil? 
+- [Link do Trello](https://trello.com/invite/b/68a91c266f226ef929f33c51/ATTI3afc7fb442a05a9b6f829720d92b0d59A68D633C/group-by)  
 
--  Como os valores imobiliários variaram no país ao longo dos anos? 
+### 🧠 Modelagem do Banco de Dados
 
--  Quanto é necessário investir para adquirir e manter um imóvel nas principais cidades brasileiras? 
+- [Diagrama ER no Draw.io](https://app.diagrams.net/?src=about#HGuilherme22B%2FGroup_by%2Fmain%2FGroupBy.drawio#%7B%22pageId%22%3A%22tpUA--I43j8R1tpW-ucj%22%7D)  
 
--  Qual é a margem de lucro na compra de imóveis, comparando os dias atuais com anos anteriores? 
+### 📁 Estrutura de Tabelas
 
--  Qual é a melhor época do ano para adquirir um imóvel no Brasil? 
-
-- Qual o custo dos aluguéis nas principais cidades do Brasil? 
-
-- Qual o tempo médio de retorno do investimento? 
-
-- Qual a média de juros de financiamento de imóveis? 
-
-- Como indicadores econômicos impactam a valorização? 
-
-- Qual a correlação entre infraestrutura e preços? 
-
-- Como a demografia local afeta a demanda? 
+- [Download do arquivo TabelasV1.zip](https://github.com/user-attachments/files/22034196/TabelasV1.zip)  
 
 
-link do trello: https://trello.com/invite/b/68a91c266f226ef929f33c51/ATTI3afc7fb442a05a9b6f829720d92b0d59A68D633C/group-by
+### 📊 Fonte dos Dados
 
-link do draw.io: https://app.diagrams.net/?src=about#HGuilherme22B%2FGroup_by%2Fmain%2FGroupBy.drawio#%7B%22pageId%22%3A%22tpUA--I43j8R1tpW-ucj%22%7D
+- [Dados oficiais do PAIC - IBGE](https://sidra.ibge.gov.br/pesquisa/paic/tabelas/brasil/2023)  
 
-Dataset[TabelasV1.zip](https://github.com/user-attachments/files/22034196/TabelasV1.zip)
-Fonte do dataset https://sidra.ibge.gov.br/pesquisa/paic/tabelas/brasil/2023
+## 📸 Visualização do Modelo
+
+O modelo físico representa a estrutura final do banco de dados, com todas as tabelas, colunas, tipos de dados e relacionamentos definidos. Ele é essencial para garantir a integridade e eficiência do sistema.
+
+<div align="center"> <img src="https://raw.githubusercontent.com/Guilherme22B/Group_by/refs/heads/main/Modelo%20F%C3%ADsico/Modelo%20F%C3%ADsico.jpg" alt="Modelo Físico do Banco de Dados" width="800"/> </div>
+
+
