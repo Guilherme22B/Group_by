@@ -54,6 +54,62 @@ constraint FK custo_manutencao foreign key(id_imovel)
    references IM.imovel(id_movel)
 );
 
+create table FN.investimento(
+id_invest int not null identify(1,1),
+id_imovel int not null,
+ano_compra int not null,
+valor_compra decimal (15,2) not null,
+valor_venda decimal(15,2)  null,
+ano_venda int null,
+constraint PK invest primary key (id_invest),
+constraint FK imovel foreign key (id_imovel)
+   references IM.imovel (id_imovel)
+
+);
+
+create table FN.retorno(
+id_retorno int not null identify(1,1)
+id_invest int not null,
+tempo_INV decimal (5,2) not null,
+constraint PK invest primary key (id_retorno),
+constraint FK imovel foreign key (id_invest)
+   references IM.imovel (id_imovel)
+
+);
+
+
+create table FN.aluguel(
+id_aluguel int not null identify(1,1),
+id_imovel int not null,
+ano_ALU int not null, 
+valor_ALU decimal (15,2),
+constraint PK invest primary key (id_aluguel),
+constraint FK imovel foreign key (id_imovel)
+   references IM.imovel (id_imovel)
+
+);
+
+
+create table FN.financiamneto(
+id_financia int not null identify(1,1),
+id_imovel int not null,
+ano_FIN int null,
+valor_FIN decimal (15,2),
+prazo_meses int not null, 
+juros_FIN decimal (5,2),
+constraint PK invest primary key (id_financia),
+constraint FK imovel foreign key (id_imovel)
+   references IM.imovel (id_imovel)
+
+);
+
+
+
+
+
+
+
+
 
 
 
