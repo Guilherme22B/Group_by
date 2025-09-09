@@ -52,7 +52,7 @@ Este projeto foi desenvolvido com o objetivo de transformar dados do PAIC em ins
 
 O modelo físico representa a estrutura final do banco de dados, com todas as tabelas, colunas, tipos de dados e relacionamentos definidos. Ele é essencial para garantir a integridade e eficiência do sistema.
 
-<div align="center"> <img src="https://raw.githubusercontent.com/Guilherme22B/Group_by/refs/heads/main/Modelo%20F%C3%ADsico/Modelo%20F%C3%ADsico.jpg" alt="Modelo Físico do Banco de Dados" width="800"/> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/Guilherme22B/Group_by/refs/heads/main/GroupBy.jpg" alt="Modelo Físico do Banco de Dados" width="800"/> </div>
 
 
 ## 📦 Visão Geral do Dataset
