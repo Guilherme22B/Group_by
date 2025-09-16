@@ -1,6 +1,33 @@
-create schema GE;
-create schema FN;
-create schema IM;
+if not exists (select * from sys.schemas where name = 'GE')
+   exec('create schema GE;');
+if not exists (select * from sys.schemas where name = 'FN')
+   exec('create schema FN;');
+if not exists (select * from sys.schemas where name = 'IM')
+   exec('create schema IM;');
+
+
+DROP TABLE IF EXISTS FN.retorno;
+
+DROP TABLE IF EXISTS FN.valor_imovel;
+DROP TABLE IF EXISTS FN.custo_manutencao;
+DROP TABLE IF EXISTS FN.investimento;
+DROP TABLE IF EXISTS FN.aluguel;
+DROP TABLE IF EXISTS FN.financiamento;
+
+DROP TABLE IF EXISTS FN.tendencia_mercado;
+DROP TABLE IF EXISTS FN.custos_adicionais;
+DROP TABLE IF EXISTS FN.risco_investimento;
+DROP TABLE IF EXISTS GE.indicadores_economicos;
+DROP TABLE IF EXISTS GE.infraestrutura_urbana;
+DROP TABLE IF EXISTS GE.demografia;
+DROP TABLE IF EXISTS IM.oferta_imobiliaria;
+DROP TABLE IF EXISTS IM.imovel;
+
+DROP TABLE IF EXISTS FN.taxajuros_historica;
+
+DROP TABLE IF EXISTS GE.cidade;
+DROP TABLE IF EXISTS GE.regiao;
+
 
 create table GE.regiao(
 id_regiao int not null identity(1,1),
@@ -180,7 +207,3 @@ constraint PK_risco_invest primary key(id_risco),
 constraint FK_risco_cidade foreign key(id_cidade)
   references GE.cidade(id_cidade)
 );
-
-
-
-
