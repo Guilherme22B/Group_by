@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Diagrama Completo" id="ifNeAqWuNb5y_B26u0HV">
+    <mxGraphModel dx="872" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-1" value="Aluno&#xa;- matricula: String {unique}&#xa;- nome: String&#xa;- email: String&#xa;+ matricular(curso: Curso)" style="shape=rectangle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-2" value="Curso&#xa;- codigo: String&#xa;- titulo: String {frozen}&#xa;- cargaHoraria: Integer&#xa;+ adicionarInstrutor(instrutor: Instrutor)" style="shape=rectangle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-3" value="Instrutor&#xa;- idInstrutor: String&#xa;- nome: String&#xa;- departamento: String&#xa;+ atribuirCurso(curso: Curso)" style="shape=rectangle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="20" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-4" value="Matricula&#xa;- dataMatricula: Date&#xa;- notaFinal: Double&#xa;- status: String" style="shape=rectangle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-5" value="estudante / registroDe" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-1" target="i9Jr-0gtz2Oo04qgIghh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-6" value="paraCurso / oferecidoEm" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-4" target="i9Jr-0gtz2Oo04qgIghh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-7" value="ensinadoPor / leciona {maxInstrutores:5}" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-2" target="i9Jr-0gtz2Oo04qgIghh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-8" value="joao: Aluno&#xa;matricula=2023001&#xa;nome=João Silva&#xa;email=joao.silva@email.com" style="shape=rectangle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-9" value="poo: Curso&#xa;codigo=CS101&#xa;titulo=POO&#xa;cargaHoraria=60" style="shape=rectangle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-10" value="bd: Curso&#xa;codigo=CS102&#xa;titulo=Banco de Dados&#xa;cargaHoraria=40" style="shape=rectangle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-11" value="ana: Instrutor&#xa;idInstrutor=INST001&#xa;nome=Ana Paula&#xa;departamento=Computação" style="shape=rectangle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="400" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-12" value="matriculaJoaoPoo: Matricula&#xa;dataMatricula=2024-03-10&#xa;notaFinal=8.5&#xa;status=Concluído" style="shape=rectangle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-13" value="matriculaJoaoBd: Matricula&#xa;dataMatricula=2024-03-15&#xa;notaFinal=null&#xa;status=Em Andamento" style="shape=rectangle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-14" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-8" target="i9Jr-0gtz2Oo04qgIghh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-15" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-12" target="i9Jr-0gtz2Oo04qgIghh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-16" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-8" target="i9Jr-0gtz2Oo04qgIghh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-17" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-13" target="i9Jr-0gtz2Oo04qgIghh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-18" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-11" target="i9Jr-0gtz2Oo04qgIghh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Jr-0gtz2Oo04qgIghh-19" edge="1" parent="1" source="i9Jr-0gtz2Oo04qgIghh-11" target="i9Jr-0gtz2Oo04qgIghh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
