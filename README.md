@@ -46,7 +46,7 @@ Este projeto foi desenvolvido com o objetivo de transformar dados do PAIC em ins
 
 ### 📊 Fonte dos Dados
 
-- [Dados oficiais do PAIC - IBGE](https://sidra.ibge.gov.br/pesquisa/paic/tabelas/brasil/2023)  
+- [Dados oficiais do PAIC - IBGE](https://drive.google.com/drive/folders/1IbTl3LHo4SFSvk51Av7tAoMA1TScVHWq?usp=drive_link)  
 
 ## 📸 Visualização do Modelo
 
