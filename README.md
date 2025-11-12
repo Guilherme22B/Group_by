@@ -60,4 +60,4 @@ Base de dados com informações do setor da construção civil no Brasil, estrut
 
 📘 Para explorar todos os campos disponíveis, consulte o [dicionário de dados completo.](https://www.notion.so/Dicion-rio-de-Dados-260ffdc5925380e98907ced79636a4c2?source=copy_link)
 
-
+Link do backup: https://drive.google.com/drive/folders/1SOuCmphuxsOB8QjAw9FB_V-STaBRQoFH?usp=sharing
