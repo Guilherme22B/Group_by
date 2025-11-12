@@ -87,7 +87,7 @@ id_imovel int not null,
 ano_compra int not null,
 valor_compra decimal (15,2) not null,
 valor_venda decimal(15,2)  null,
-ano_venda int null,
+ano_venda DECIMAL(15,1) NULL;
 constraint PK_investimento primary key (id_invest),
 constraint FK_investimento_imovel foreign key (id_imovel)
    references IM.imovel (id_imovel)
