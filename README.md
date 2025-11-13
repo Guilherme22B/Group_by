@@ -1,11 +1,11 @@
 
 
 
-# 📈 Análise do Setor de Construção Civil no Brasil - PAIC
+# 📈 Análise do Setor de Construção Civil no Brasil 
  
 ## 🎯 Objetivo do Projeto
 
-Este projeto tem como propósito desenvolver uma solução analítica robusta para o setor imobiliário brasileiro, utilizando dados da **Pesquisa Anual da Indústria da Construção (PAIC)**. A iniciativa visa criar um **banco de dados relacional em SQL Server**, capaz de armazenar, organizar e analisar informações relevantes para investidores, gestores públicos e profissionais do mercado.
+Este projeto tem como propósito desenvolver uma solução analítica robusta para o setor imobiliário brasileiro. A iniciativa visa criar um **banco de dados relacional em SQL Server**, capaz de armazenar, organizar e analisar informações relevantes para investidores, gestores públicos e profissionais do mercado.
 
 ## 🧱 Principais Funcionalidades
 
@@ -17,7 +17,7 @@ Este projeto tem como propósito desenvolver uma solução analítica robusta pa
 
 ## ❓ Perguntas que o Projeto Busca Responder
 
-Este projeto foi desenvolvido com o objetivo de transformar dados do PAIC em insights estratégicos para o setor imobiliário brasileiro. Abaixo estão as principais perguntas que orientam nossas análises:
+Este projeto foi desenvolvido com o objetivo de transformar dados em insights estratégicos para o setor imobiliário brasileiro. Abaixo estão as principais perguntas que orientam nossas análises:
 
 - 🏙️ **Quais são as melhores cidades para se realizar investimentos imobiliários no Brasil?**
 - 📉 **Como os valores imobiliários variaram no país ao longo dos anos?**
@@ -46,7 +46,7 @@ Este projeto foi desenvolvido com o objetivo de transformar dados do PAIC em ins
 
 ### 📊 Fonte dos Dados
 
-- [Dados oficiais do PAIC - IBGE](https://drive.google.com/drive/folders/1IbTl3LHo4SFSvk51Av7tAoMA1TScVHWq?usp=drive_link)  
+- [Dados](https://drive.google.com/drive/folders/1IbTl3LHo4SFSvk51Av7tAoMA1TScVHWq?usp=drive_link)  
 
 ## 📸 Visualização do Modelo
 
